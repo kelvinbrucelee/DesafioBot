@@ -13,8 +13,8 @@
 ###### /cliente 39550
 
 ###### Codigo rodando no pythonanywhere
-
+https://www.pythonanywhere.com
 ###### Biblioteca do telegram bot no python
 $ pip install python-telegram-bot
 
-https://www.pythonanywhere.com
+
