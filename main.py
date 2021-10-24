@@ -15,6 +15,7 @@ db_connection = mysql.connector.connect(host="108.167.132.18", user="kelvin40_mv
                                         database="kelvin40_mvx")
 cursor = db_connection.cursor()
 
+
 def cliente(update: Update, context: CallbackContext) -> None:
     digitar = str(update.message.text).lower()
     comando, cliente = digitar.split(" ")
@@ -46,8 +47,10 @@ def cliente(update: Update, context: CallbackContext) -> None:
         convalor = locale.currency(soma, grouping=True, symbol=None)
         update.message.reply_text(f'{prodnome}| {quantidade}ㅤ| {convalor}')
 
+
 def total(update: Update, context: CallbackContext) -> None:
-    sql = (f'SELECT sum(valor * quantidade) as total FROM venda INNER JOIN venda_itens on venda.id = venda_itens.venda_id')
+    sql = (
+        f'SELECT sum(valor * quantidade) as total FROM venda INNER JOIN venda_itens on venda.id = venda_itens.venda_id')
     cursor.execute(sql)
     connect = cursor.fetchall()
     for total in connect:
@@ -82,6 +85,7 @@ def echo(update: Update, context: CallbackContext) -> None:
         EXEMPLO: /CLIENTE 12345"""
     update.message.reply_text(texto)
 
+
 def main() -> None:
     updater = Updater("2025925571:AAHvKCZ5E6oOA8ZSDWxdJrb9QBbbFpXAJig")
 
@@ -91,12 +95,13 @@ def main() -> None:
     dispatcher.add_handler(CommandHandler("total", total))
     dispatcher.add_handler(CommandHandler("mes", mes))
 
-    #mensagem - ecoa a mensagem no telegrama
+    # mensagem - ecoa a mensagem no telegrama
     dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, echo))
 
     updater.start_polling()
 
     updater.idle()
+
 
 if __name__ == '__main__':
     main()
