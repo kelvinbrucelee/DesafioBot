@@ -4,24 +4,26 @@
 ###### Desafio do telegram bot com intuito de criar um bot para o telegram com a finalidade exibir as vendas de um determinado cliente e todas as vendas de um estabelecimento.
 
 ![bot](https://user-images.githubusercontent.com/44644670/138617741-9efaef7f-7bcc-4dba-a9c6-7a2045961a47.png)
-#### Plataforma usada para implementação do desafio:
-<blockquote> Mysql / Python
+
+<blockquote> Plataforma usada para implementação do desafio:
+
+>  Mysql / Python
 
 ###### Ide: Pycharm
 
 ###### Bot teste: bot do kelvin
-<blockquote> /cliente 39550
+> /cliente 39550
 
 ###### Codigo rodando no pythonanywhere
-<blockquote> https://www.pythonanywhere.com
+> https://www.pythonanywhere.com
 
 ###### Biblioteca do telegram bot no python
-<blockquote> $ pip install python-telegram-bot
+>  $ pip install python-telegram-bot
 
 
 
-Para testar a aplicação local instale um banco de dados local chame os dados do banco de dados no arquivo python.
-Exemplo: ost="localhost", user="root", passwd="",database="nome do banco de dados local".
+<blockquote> Para testar a aplicação local instale um banco de dados local chame os dados do banco de dados no arquivo python.
+Exemplo: ```host="localhost", user="root", passwd="",database="nome do banco de dados local".```
 Crie um (TOKEN) no telegram, adicione o TOKEN no arquivo python em main.
 
 Instale o python na sua maquina local
