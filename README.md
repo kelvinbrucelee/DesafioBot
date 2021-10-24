@@ -4,9 +4,8 @@
 ###### Desafio do telegram bot com intuito de criar um bot para o telegram com a finalidade exibir as vendas de um determinado cliente e todas as vendas de um estabelecimento.
 
 
-###### Plataforma usada para implementação do desafio:
-###### Mysql /
-###### Python
+#### Plataforma usada para implementação do desafio:
+#### Mysql / Python
 
 ###### Ide: Pycharm
 
@@ -15,6 +14,7 @@
 
 ###### Codigo rodando no pythonanywhere
 
+###### Biblioteca do telegram bot no python
 $ pip install python-telegram-bot
 
 https://www.pythonanywhere.com
