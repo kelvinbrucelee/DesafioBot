@@ -31,11 +31,9 @@
 <blockquote> Instale o python na sua maquina local
 
 <blockquote> Instale a biblioteca do telegram bot
-
-> $ pip install python-telegram-bot
+$ pip install python-telegram-bot
 
 <blockquote> Inicie o serviço python.
-
-> python desafiobot.py
+python desafiobot.py
 
 
