@@ -11,8 +11,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Conecxão com banco de dados
-db_connection = mysql.connector.connect(host="108.167.132.18", user="kelvin40_mvx", passwd="mvx1234",
-                                        database="kelvin40_mvx")
+db_connection = mysql.connector.connect(host="localhost", user="root", passwd="",
+                                        database="mvx")
 cursor = db_connection.cursor()
 
 
@@ -87,7 +87,7 @@ def echo(update: Update, context: CallbackContext) -> None:
 
 
 def main() -> None:
-    updater = Updater("2025925571:AAHvKCZ5E6oOA8ZSDWxdJrb9QBbbFpXAJig")
+    updater = Updater("TOKEN")
 
     dispatcher = updater.dispatcher
 
