@@ -22,18 +22,18 @@
 
 
 
-<blockquote> Para testar a aplicação local instale um banco de dados local chame os dados do banco de dados no arquivo python.
+Para testar a aplicação local instale um banco de dados local chame os dados do banco de dados no arquivo python.
 
 > Exemplo: ```host="localhost", user="root", passwd="",database="nome do banco de dados local".```
 
 > Crie um (TOKEN) no telegram, adicione o TOKEN no arquivo python em main.
 
-<blockquote> Instale o python na sua maquina local
+Instale o python na sua máquina local
 
-<blockquote> Instale a biblioteca do telegram bot
-$ pip install python-telegram-bot
+Instale a biblioteca do telegram bot
+> $ pip install python-telegram-bot
 
-<blockquote> Inicie o serviço python.
-python desafiobot.py
+Inicie o serviço python.
+>python desafiobot.py
 
 
