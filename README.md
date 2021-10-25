@@ -12,7 +12,7 @@
 ###### Ide: Pycharm
 
 ###### Bot teste: bot do kelvin
-> /cliente 39550
+> /cliente 21856
 
 ###### Codigo rodando no pythonanywhere
 > https://www.pythonanywhere.com
