@@ -26,7 +26,7 @@ Para testar a aplicação local instale um banco de dados local, chame os dados 
 
 > Exemplo: ```host="localhost", user="root", passwd="",database="nome do banco de dados local".```
 
-> Crie um (TOKEN) no telegram, adicione o TOKEN no arquivo python em main.
+Crie um (TOKEN) no telegram, adicione o TOKEN no arquivo python em main.
 
 Instale o python na sua máquina local pelo site:
 >https://www.python.org
