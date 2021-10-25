@@ -97,7 +97,7 @@ def echo(update: Update, context: CallbackContext) -> None:
         MÊS ATUAL
         CLIENTE - DIGITE /CLIENTE E O ID 
         DO CLIENTE
-        EXEMPLO: /CLIENTE 12345"""
+        EXEMPLO: /CLIENTE 21856"""
     update.message.reply_text(texto)
 
 def main() -> None:
